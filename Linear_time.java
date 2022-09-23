@@ -5,31 +5,29 @@ public class Linear_time {
 	public static void main(String[] args) {
 
 		
-		System.out.println("¹è¿­¿¡ ÀúÀåÇÒ ¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ë°°ì—´ì— ì €ì¥í•  ìˆ«ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		Scanner scanner = new Scanner(System.in);
 		int inscore[] = new int[3]; 
 		//score[0] ~ score[9] 
 		
-		//for¹®ÀÌ ¹İº¹µÇ¸é¼­ i °ª Áõ°¡ + [i]°ª¿¡ ÀÔ·ÂÇÑ °ª ÀúÀå
+		//forë¬¸ì´ ë°˜ë³µë˜ë©´ì„œ i ê°’ ì¦ê°€ + [i]ê°’ì— ì…ë ¥í•œ ê°’ ì €ì¥
 		int i=0;
 		for(; i<inscore.length;i++) {
 			inscore[i] = scanner.nextInt();
-			System.out.println("score[" + i + "]´Â" + inscore[i] + "ÀÔ´Ï´Ù.");
+			System.out.println("score[" + i + "]ëŠ”" + inscore[i] + "ì…ë‹ˆë‹¤.");
 		}//end of for
 		
-		
-		//¼±Çü°Ë»ö¾Ë°í¸®Áò
 		System.out.println("---------------------------------");
-		System.out.println("Ã£À¸·Á´Â °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ì°¾ìœ¼ë ¤ëŠ” ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int findscore = scanner.nextInt();
-		System.out.println("ÀÔ·ÂÇÏ½Å °ªÀº" + findscore + "ÀÔ´Ï´Ù.");
+		System.out.println("ì…ë ¥í•˜ì‹  ê°’ì€" + findscore + "ì…ë‹ˆë‹¤.");
 		System.out.println("---------------------------------");
 		
 		for(i=0; i<inscore.length;i++) 
 			if(inscore[i] == findscore) { 
-			System.out.println("Ã£¾Ò¾î¿ä. inscore["+ i +"]¿¡ ÀÖ½À´Ï´Ù.");
+			System.out.println("ì°¾ì•˜ì–´ìš”. inscore["+ i +"]ì— ìˆìŠµë‹ˆë‹¤.");
 			}else {
-			System.out.println("¸øÃ£¾Ò¾î¿ä.ÇöÀç inscoreÀÇ À§Ä¡´Â"+i+"ÀÔ´Ï´Ù.");
+			System.out.println("ëª»ì°¾ì•˜ì–´ìš”.í˜„ì¬ inscoreì˜ ìœ„ì¹˜ëŠ”"+i+"ì…ë‹ˆë‹¤.");
 			}//i++;
 		//end of for
 	}//end of main
