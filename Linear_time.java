@@ -3,8 +3,6 @@ import java.util. Scanner;
 public class Linear_time {
 
 	public static void main(String[] args) {
-
-		
 		System.out.println("배열에 저장할 숫자를 입력해주세요.");
 		Scanner scanner = new Scanner(System.in);
 		int inscore[] = new int[3]; 
