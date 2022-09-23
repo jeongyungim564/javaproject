@@ -28,7 +28,7 @@ public class Linear_time {
 			System.out.println("찾았어요. inscore["+ i +"]에 있습니다.");
 			}else {
 			System.out.println("못찾았어요.현재 inscore의 위치는"+i+"입니다.");
-			}//i++;
+			}
 		//end of for
 	}//end of main
 }//end of class
